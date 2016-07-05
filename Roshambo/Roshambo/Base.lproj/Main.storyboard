@@ -63,7 +63,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.33432586567617806" green="0.65562438409076895" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Zaw-s6-RrK" firstAttribute="top" secondItem="c5K-Gc-hhF" secondAttribute="bottom" constant="24" id="IUp-aR-aSC"/>
                             <constraint firstItem="XxT-Bn-ZA6" firstAttribute="top" secondItem="c5K-Gc-hhF" secondAttribute="bottom" constant="24" id="Sz7-KA-Quu"/>
@@ -113,7 +113,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.38078175747952847" green="0.59630710512143459" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="mkJ-gh-3n6" secondAttribute="centerX" id="8wg-MI-oGx"/>
                             <constraint firstAttribute="centerX" secondItem="4d9-cp-rHs" secondAttribute="centerX" id="BMx-rk-oOo"/>
@@ -139,4 +139,5 @@
         <image name="scissors" width="37" height="32"/>
         <image name="tie" width="91" height="100"/>
     </resources>
+    <color key="tintColor" red="0.25584522164351531" green="0.39523948796575403" blue="0.62999999523162842" alpha="1" colorSpace="calibratedRGB"/>
 </document>
