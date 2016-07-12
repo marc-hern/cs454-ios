@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Meme_Me" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y8Q-kM-YtL">
+                                <rect key="frame" x="139" y="169" width="323" height="262"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHc-oX-VBZ">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Pick" id="AC3-rO-i1B">
+                                        <connections>
+                                            <action selector="pickAnImage:" destination="BYZ-38-t0r" id="cgJ-Q5-gFc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="DHc-oX-VBZ" firstAttribute="top" secondItem="Y8Q-kM-YtL" secondAttribute="bottom" constant="125" id="2dz-6y-dTV"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DHc-oX-VBZ" secondAttribute="bottom" id="5pu-6M-yL1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DHc-oX-VBZ" secondAttribute="trailing" constant="-20" id="Kc3-2X-RUu"/>
+                            <constraint firstItem="Y8Q-kM-YtL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="119" id="NQD-As-nxg"/>
+                            <constraint firstItem="DHc-oX-VBZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="VL5-RD-6oM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Y8Q-kM-YtL" secondAttribute="trailing" constant="118" id="hUU-Qq-HWE"/>
+                            <constraint firstItem="DHc-oX-VBZ" firstAttribute="top" secondItem="Y8Q-kM-YtL" secondAttribute="bottom" constant="125" id="imo-LE-7mS"/>
+                            <constraint firstItem="Y8Q-kM-YtL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="149" id="p5o-Jp-IEr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imagePickerView" destination="Y8Q-kM-YtL" id="Tnj-wM-MTM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="388" y="315"/>
+        </scene>
+    </scenes>
+</document>
